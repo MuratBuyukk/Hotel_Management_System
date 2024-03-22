@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="HMSDataSet" targetNamespace="http://tempuri.org/HMSDataSet.xsd" xmlns:mstns="http://tempuri.org/HMSDataSet.xsd" xmlns="http://tempuri.org/HMSDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="HMSDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="HMSDataSet" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="HMSDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="RoomTypesTotal" msprop:Generator_RowClassName="RoomTypesTotalRow" msprop:Generator_RowEvHandlerName="RoomTypesTotalRowChangeEventHandler" msprop:Generator_RowDeletedName="RoomTypesTotalRowDeleted" msprop:Generator_RowDeletingName="RoomTypesTotalRowDeleting" msprop:Generator_RowEvArgName="RoomTypesTotalRowChangeEvent" msprop:Generator_TablePropName="RoomTypesTotal" msprop:Generator_RowChangedName="RoomTypesTotalRowChanged" msprop:Generator_UserTableName="RoomTypesTotal" msprop:Generator_RowChangingName="RoomTypesTotalRowChanging" msprop:Generator_TableClassName="RoomTypesTotalDataTable" msprop:Generator_TableVarName="tableRoomTypesTotal">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RoomTypeName" msprop:Generator_UserColumnName="RoomTypeName" msprop:Generator_ColumnPropNameInTable="RoomTypeNameColumn" msprop:Generator_ColumnPropNameInRow="RoomTypeName" msprop:Generator_ColumnVarNameInTable="columnRoomTypeName" type="xs:string" minOccurs="0" />
+              <xs:element name="NumberOfRoom" msprop:Generator_UserColumnName="NumberOfRoom" msprop:Generator_ColumnPropNameInTable="NumberOfRoomColumn" msprop:Generator_ColumnPropNameInRow="NumberOfRoom" msprop:Generator_ColumnVarNameInTable="columnNumberOfRoom" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="RoomTypeReportByBooking" msprop:Generator_RowEvHandlerName="RoomTypeReportByBookingRowChangeEventHandler" msprop:Generator_RowDeletedName="RoomTypeReportByBookingRowDeleted" msprop:Generator_RowDeletingName="RoomTypeReportByBookingRowDeleting" msprop:Generator_RowEvArgName="RoomTypeReportByBookingRowChangeEvent" msprop:Generator_TablePropName="RoomTypeReportByBooking" msprop:Generator_RowChangedName="RoomTypeReportByBookingRowChanged" msprop:Generator_RowChangingName="RoomTypeReportByBookingRowChanging" msprop:Generator_TableClassName="RoomTypeReportByBookingDataTable" msprop:Generator_RowClassName="RoomTypeReportByBookingRow" msprop:Generator_TableVarName="tableRoomTypeReportByBooking" msprop:Generator_UserTableName="RoomTypeReportByBooking">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RoomTypeName" msprop:Generator_ColumnPropNameInRow="RoomTypeName" msprop:Generator_ColumnPropNameInTable="RoomTypeNameColumn" msprop:Generator_ColumnVarNameInTable="columnRoomTypeName" msprop:Generator_UserColumnName="RoomTypeName" type="xs:string" minOccurs="0" />
+              <xs:element name="NumberOfBookings" msprop:Generator_ColumnPropNameInRow="NumberOfBookings" msprop:Generator_ColumnPropNameInTable="NumberOfBookingsColumn" msprop:Generator_ColumnVarNameInTable="columnNumberOfBookings" msprop:Generator_UserColumnName="NumberOfBookings" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="RoomTypeReportByAccommodation" msprop:Generator_RowEvHandlerName="RoomTypeReportByAccommodationRowChangeEventHandler" msprop:Generator_RowDeletedName="RoomTypeReportByAccommodationRowDeleted" msprop:Generator_RowDeletingName="RoomTypeReportByAccommodationRowDeleting" msprop:Generator_RowEvArgName="RoomTypeReportByAccommodationRowChangeEvent" msprop:Generator_TablePropName="RoomTypeReportByAccommodation" msprop:Generator_RowChangedName="RoomTypeReportByAccommodationRowChanged" msprop:Generator_RowChangingName="RoomTypeReportByAccommodationRowChanging" msprop:Generator_TableClassName="RoomTypeReportByAccommodationDataTable" msprop:Generator_RowClassName="RoomTypeReportByAccommodationRow" msprop:Generator_TableVarName="tableRoomTypeReportByAccommodation" msprop:Generator_UserTableName="RoomTypeReportByAccommodation">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RoomTypeName" msprop:Generator_ColumnPropNameInRow="RoomTypeName" msprop:Generator_ColumnPropNameInTable="RoomTypeNameColumn" msprop:Generator_ColumnVarNameInTable="columnRoomTypeName" msprop:Generator_UserColumnName="RoomTypeName" type="xs:string" minOccurs="0" />
+              <xs:element name="NumberOfAccommodation" msprop:Generator_ColumnPropNameInRow="NumberOfAccommodation" msprop:Generator_ColumnPropNameInTable="NumberOfAccommodationColumn" msprop:Generator_ColumnVarNameInTable="columnNumberOfAccommodation" msprop:Generator_UserColumnName="NumberOfAccommodation" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="RoomTypeReportByDeparted" msprop:Generator_RowEvHandlerName="RoomTypeReportByDepartedRowChangeEventHandler" msprop:Generator_RowDeletedName="RoomTypeReportByDepartedRowDeleted" msprop:Generator_RowDeletingName="RoomTypeReportByDepartedRowDeleting" msprop:Generator_RowEvArgName="RoomTypeReportByDepartedRowChangeEvent" msprop:Generator_TablePropName="RoomTypeReportByDeparted" msprop:Generator_RowChangedName="RoomTypeReportByDepartedRowChanged" msprop:Generator_RowChangingName="RoomTypeReportByDepartedRowChanging" msprop:Generator_TableClassName="RoomTypeReportByDepartedDataTable" msprop:Generator_RowClassName="RoomTypeReportByDepartedRow" msprop:Generator_TableVarName="tableRoomTypeReportByDeparted" msprop:Generator_UserTableName="RoomTypeReportByDeparted">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RoomTypeName" msprop:Generator_ColumnPropNameInRow="RoomTypeName" msprop:Generator_ColumnPropNameInTable="RoomTypeNameColumn" msprop:Generator_ColumnVarNameInTable="columnRoomTypeName" msprop:Generator_UserColumnName="RoomTypeName" type="xs:string" minOccurs="0" />
+              <xs:element name="NumberOfDeparted" msprop:Generator_ColumnPropNameInRow="NumberOfDeparted" msprop:Generator_ColumnPropNameInTable="NumberOfDepartedColumn" msprop:Generator_ColumnVarNameInTable="columnNumberOfDeparted" msprop:Generator_UserColumnName="NumberOfDeparted" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
